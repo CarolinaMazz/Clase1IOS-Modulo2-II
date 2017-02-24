@@ -70,7 +70,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return cell
         
     }
+    
+    /*func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+        
+        self.performSegue(withIdentifier: "transition", sender: indexPath)
+    }*/
 
+    
 
 }
 
