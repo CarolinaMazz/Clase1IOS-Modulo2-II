@@ -12,6 +12,8 @@
 		FBB4268A1E5FC85400CF4C1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB426881E5FC85400CF4C1C /* Main.storyboard */; };
 		FBB4268C1E5FC85400CF4C1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB4268B1E5FC85400CF4C1C /* Assets.xcassets */; };
 		FBB4268F1E5FC85400CF4C1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB4268D1E5FC85400CF4C1C /* LaunchScreen.storyboard */; };
+		FBB426971E5FCBD600CF4C1C /* Elemento.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB426961E5FCBD600CF4C1C /* Elemento.swift */; };
+		FBB426991E5FD02A00CF4C1C /* ElementoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB426981E5FD02A00CF4C1C /* ElementoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FBB4268B1E5FC85400CF4C1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBB4268E1E5FC85400CF4C1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBB426901E5FC85500CF4C1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBB426961E5FCBD600CF4C1C /* Elemento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Elemento.swift; sourceTree = "<group>"; };
+		FBB426981E5FD02A00CF4C1C /* ElementoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				FBB4268B1E5FC85400CF4C1C /* Assets.xcassets */,
 				FBB4268D1E5FC85400CF4C1C /* LaunchScreen.storyboard */,
 				FBB426901E5FC85500CF4C1C /* Info.plist */,
+				FBB426961E5FCBD600CF4C1C /* Elemento.swift */,
+				FBB426981E5FD02A00CF4C1C /* ElementoTableViewCell.swift */,
 			);
 			path = "Clase1IOS-Modulo2-II";
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			files = (
 				FBB426871E5FC85400CF4C1C /* ViewController.swift in Sources */,
 				FBB426851E5FC85400CF4C1C /* AppDelegate.swift in Sources */,
+				FBB426991E5FD02A00CF4C1C /* ElementoTableViewCell.swift in Sources */,
+				FBB426971E5FCBD600CF4C1C /* Elemento.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
